@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+.main{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.6)50%,rgba(0,0,0,0.6)50%),url(clg\ .png);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    background-color: aliceblue;
+}
+.icon{
+    width: 328px;
+    height: 75px;
+    float: left;
+    background-color: aliceblue;
+}
+.logo{
+width: 75px;
+padding-left:150px ;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 440px;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+ text-decoration: none;
+ color:black;
+ font-family: arial;
+ font-weight: bold;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin-left: 60px;
+    color: #fff;
+    position: relative;
+}
+ .content p{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.5px;
+    font-family: arial;
+    line-height: 30px;
+    font-size: 20px;
+}
+.content h1{
+ font-family: 'Times New Roman';
+ font-size: 45px;
+ padding-left: 20px;
+ margin-top: 12%;
+ letter-spacing: 2px;
+}
+.content span{
+    font-family: 'Times New Roman';
+    font-size: 65px;
+    color: white;
+}
+ .button{
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 497px;
+    margin-top: 15px;
+    background-color:#f5820f;
+    border: none;
+}
+.content .click{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background: white;
+    
+}
+ .button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.box1{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    margin-left:55px;
+    margin-top: 80px;
+    border-radius: 10px;
+    float: left;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.box1 h2{
+    padding-left: 40px;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: black;
+    }
+.box1 p{
+        font-size:18px ;
+        padding: 10px;
+        padding-left: 35px;
+        letter-spacing: 1px;
+        color:black;
+        margin-bottom: 30px;
+        font-family: 'Times New Roman';
+        letter-spacing: 1.5px;
+        color: rgb(113, 111, 111);
+    }
+.box2{
+    width: 350px;
+    height: 450px;
+    background-color: #f5820f;
+    margin-left: 45px;
+    border-radius: 10px;
+    float: left;
+    box-shadow:  0px 2px 15px rgba(0, 0, 0, 0.1);
+
+}
+.box2 h1{
+padding-left: 40px;
+padding-top: 30px;
+font-weight: 700;
+font-size: 34px;
+margin-bottom: 30px;
+color: #fff;
+}
+.box2 p{
+    font-size:18px ;
+    padding: 10px;
+    padding-left: 35px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman';
+}
+.box3{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    margin-left: 55px;
+    margin-top: 80px;
+    border-radius: 10px;
+    float: left;
+    box-shadow:  0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.box3 h2{
+    padding-left: 40px;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: black;
+    }
+.box3 p{
+        font-size:18px ;
+        padding: 10px;
+        padding-left: 35px;
+        letter-spacing: 1px;
+        color:black;
+        margin-bottom: 30px;
+        font-family: 'Times New Roman';
+        letter-spacing: 1.5;
+        color: rgb(113, 111, 111);
+    }
+.center{
+    width: 100%;
+    height: 100vh;
+    margin: 30px;
+    margin-left: 90px;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+/* Hide all slides by default */
+.mySlides {
+    display: none;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from { opacity: .4 } 
+    to { opacity: 1 }
+}
+
+/* Dots */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+.facilities {
+    text-align: center;
+    padding: 90px 0;
+}
+
+.facilities h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.facilities p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #555;
+}
+.our-facilities{
+    background-color: #fff9f7;
+}
+
+.facility-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #fff9f7;
+}
+
+.facility {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 35px;
+    margin-bottom: 25px;
+    width: 250px;
+    height:200px;
+    padding:  50px 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: fadeInUp 1s ease-out;
+}
+
+.facility:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.facility .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #ff6600;
+}
+
+.facility h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.facility p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.footer{
+    padding: 60px 0 30px 0;
+    background: #f5820f;
+    width: 100%;
+    height: 190px;
+}
+.college {
+    padding-left: 50px;
+    padding-bottom: 60px;
+}
+h3{
+    font-size: 15px;
+}
+.college p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color:black;
+}
+.college span{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+@keyframes appear{
+    from{
+opacity: 0;
+scale: 0.5;
+    }
+    to{
+opacity: 1;
+scale:1 ;
+    }
+}
+.box2 {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.box1{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.box3{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.facility{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
